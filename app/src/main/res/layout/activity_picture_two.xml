@@ -41,31 +41,30 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
     <Button
-        android:id="@+id/btnBack2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="104dp"
-        android:backgroundTint="#0C0C0C"
-        android:fontFamily="@font/bree_serif"
-        android:textColor="#FFFEFE"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPage2"
-        tools:text="Back" />
-
-    <Button
         android:id="@+id/btnNext2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#0E0E0E"
         android:fontFamily="@font/bree_serif"
         android:text="Next"
         android:textColor="#FFFDFD"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPage2" />
+
+    <Button
+        android:id="@+id/btnBack2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#0B0A0A"
+        android:fontFamily="@font/bree_serif"
+        android:text="Back"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPage2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

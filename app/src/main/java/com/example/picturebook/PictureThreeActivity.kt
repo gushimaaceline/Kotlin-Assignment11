@@ -12,8 +12,12 @@ class PictureThreeActivity : AppCompatActivity() {
         var page3= findViewById<Button>(R.id.btnBack3)
         var next3= findViewById<Button>(R.id.btnNext3)
         page3.setOnClickListener {
-            var display5= Intent(baseContext,PictureFourActivity::class.java)
+            var display5= Intent(baseContext,PictureTwoActivity::class.java)
             startActivity(display5)
+        }
+        next3.setOnClickListener {
+            var display8= Intent(baseContext,PictureFourActivity::class.java)
+            startActivity(display8)
         }
     }
 }

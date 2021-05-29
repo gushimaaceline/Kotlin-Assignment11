@@ -12,7 +12,7 @@ class PictureOneActivity : AppCompatActivity() {
         var backOne= findViewById<Button>(R.id.btnBack1)
         var nextOne= findViewById<Button>(R.id.btnNext1)
         backOne.setOnClickListener {
-            var display1=Intent(baseContext,PictureTwoActivity::class.java)
+            var display1=Intent(baseContext,MainActivity::class.java)
             startActivity(display1)
         }
         nextOne.setOnClickListener {
